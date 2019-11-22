@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-22T08:23:29.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="KxuxN_qg2ng-rH20K5nj" version="12.2.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-22T08:44:31.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="_yfFdrSGQVGTnJmi-ra7" version="12.2.9" type="github" pages="1">
   <diagram id="WlpwBIbsUezFIb3I0WMP" name="Page-1">
     <mxGraphModel dx="1102" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
             <mxPoint x="659.5" y="120" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1HZqBqBd3Bs0f9Zx4c5-19" value="DNS消息体（如果不指定扩展选项，长度被限定为 512字节）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="q1HZqBqBd3Bs0f9Zx4c5-19" value="DNS消息体，使用 UDP 长度被限定为最大 512字节）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="110" width="350" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="q1HZqBqBd3Bs0f9Zx4c5-20" value="" style="endArrow=none;html=1;" edge="1" parent="1">

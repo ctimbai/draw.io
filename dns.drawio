@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-22T02:40:19.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="FxnTk_6lE1a7ZAfh6-d8" version="12.2.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-27T12:43:21.674Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="1VwEJazGYe3ZW2_HRZ7Q" version="12.2.9" type="github" pages="1">
   <diagram id="IWoXafulItEd8QuLjbcS" name="Page-1">
     <mxGraphModel dx="1929" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -205,6 +205,45 @@
         </mxCell>
         <mxCell id="Dth5LIdZDo002Ucan2Yi-56" value="&lt;font style=&quot;font-size: 24px&quot;&gt;·&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="375" y="50" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dth5LIdZDo002Ucan2Yi-59" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="130" as="sourcePoint"/>
+            <mxPoint x="910" y="130" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dth5LIdZDo002Ucan2Yi-60" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="259.5" as="sourcePoint"/>
+            <mxPoint x="910" y="260" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dth5LIdZDo002Ucan2Yi-61" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="380" as="sourcePoint"/>
+            <mxPoint x="910" y="380" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dth5LIdZDo002Ucan2Yi-62" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="500" as="sourcePoint"/>
+            <mxPoint x="910" y="500" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dth5LIdZDo002Ucan2Yi-63" value="根域名服务器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="80" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dth5LIdZDo002Ucan2Yi-64" value="顶级域名服务器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="190" width="87" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dth5LIdZDo002Ucan2Yi-65" value="次级域名服务器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="310" width="87" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dth5LIdZDo002Ucan2Yi-68" value="权威域名服务器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="430" width="87" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dth5LIdZDo002Ucan2Yi-69" value="主机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="526" width="87" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>

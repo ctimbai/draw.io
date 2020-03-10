@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-09T09:45:29.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="SvL9iYnKAAwxi0U1lchq" version="12.8.1" type="github">
+<mxfile host="www.draw.io" modified="2020-03-10T08:57:18.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="YbkHd6y7e9LTz_-wqm7j" version="12.8.1" type="github">
   <diagram id="UbnmEzKU4DW8Wje90Gz_" name="Page-1">
-    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,17 +61,20 @@
         <mxCell id="Mz17t4GqtwZhGM6FCN8D-41" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#f9f7ed;strokeColor=#36393d;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="550" y="85" width="440" height="230" as="geometry" />
         </mxCell>
+        <mxCell id="j0-yWrpZcLK2SSLNnE_6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="Mz17t4GqtwZhGM6FCN8D-42" target="j0-yWrpZcLK2SSLNnE_6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Mz17t4GqtwZhGM6FCN8D-42" value="ovn-controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="590" y="182.5" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Mz17t4GqtwZhGM6FCN8D-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="770" y="115" width="200" height="180" as="geometry" />
+          <mxGeometry x="800" y="115" width="170" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Mz17t4GqtwZhGM6FCN8D-44" value="ovsdb-server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="882" y="155" width="75" height="35" as="geometry" />
+          <mxGeometry x="830" y="150" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Mz17t4GqtwZhGM6FCN8D-46" value="本地OVS数据库" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="815" y="220" width="110" height="60" as="geometry" />
+          <mxGeometry x="830" y="220" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mz17t4GqtwZhGM6FCN8D-47" value="本地 OVS 进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="870" y="95" width="90" height="20" as="geometry" />
@@ -107,7 +110,7 @@
           <mxGeometry x="52.5" y="125" width="87.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Mz17t4GqtwZhGM6FCN8D-64" value="ovsdb" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="720" y="182.5" width="40" height="20" as="geometry" />
+          <mxGeometry x="740" y="182.5" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Mz17t4GqtwZhGM6FCN8D-65" value="ovsdb" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="500" y="260" width="40" height="20" as="geometry" />
@@ -127,35 +130,44 @@
         <mxCell id="j0-yWrpZcLK2SSLNnE_6-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;安装包：&lt;br&gt;RHEL/CentOS：openvswitch-ovn&lt;br&gt;Ubuntu/Debian: ovn-central, ovn-host, ovn-docker, ovn-common&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="-10" width="400" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="j0-yWrpZcLK2SSLNnE_6-5" value="ovs-vswitchd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="784" y="155" width="80" height="35" as="geometry" />
+        <mxCell id="j0-yWrpZcLK2SSLNnE_6-16" value="ovs-vswitchd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="674" y="255" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="j0-yWrpZcLK2SSLNnE_6-8" value="ovn-controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="j0-yWrpZcLK2SSLNnE_6-18" value="OpenFlow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j0-yWrpZcLK2SSLNnE_6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="j0-yWrpZcLK2SSLNnE_6-20" target="j0-yWrpZcLK2SSLNnE_6-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j0-yWrpZcLK2SSLNnE_6-20" value="ovn-controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="590" y="472.5" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="j0-yWrpZcLK2SSLNnE_6-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="770" y="405" width="200" height="180" as="geometry" />
+        <mxCell id="j0-yWrpZcLK2SSLNnE_6-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="405" width="170" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="j0-yWrpZcLK2SSLNnE_6-10" value="ovsdb-server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="882" y="445" width="75" height="35" as="geometry" />
+        <mxCell id="j0-yWrpZcLK2SSLNnE_6-22" value="ovsdb-server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="830" y="440" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="j0-yWrpZcLK2SSLNnE_6-11" value="本地OVS数据库" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="815" y="510" width="110" height="60" as="geometry" />
+        <mxCell id="j0-yWrpZcLK2SSLNnE_6-23" value="本地OVS数据库" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="830" y="510" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j0-yWrpZcLK2SSLNnE_6-12" value="本地 OVS 进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="j0-yWrpZcLK2SSLNnE_6-24" value="本地 OVS 进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="870" y="385" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="j0-yWrpZcLK2SSLNnE_6-13" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="j0-yWrpZcLK2SSLNnE_6-8" target="j0-yWrpZcLK2SSLNnE_6-9">
+        <mxCell id="j0-yWrpZcLK2SSLNnE_6-25" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="j0-yWrpZcLK2SSLNnE_6-20" target="j0-yWrpZcLK2SSLNnE_6-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="750" y="515" as="sourcePoint" />
             <mxPoint x="800" y="465" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j0-yWrpZcLK2SSLNnE_6-14" value="ovsdb" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="720" y="472.5" width="40" height="20" as="geometry" />
+        <mxCell id="j0-yWrpZcLK2SSLNnE_6-26" value="ovsdb" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="740" y="472.5" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="j0-yWrpZcLK2SSLNnE_6-15" value="ovs-vswitchd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="784" y="445" width="80" height="35" as="geometry" />
+        <mxCell id="j0-yWrpZcLK2SSLNnE_6-27" value="ovs-vswitchd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="674" y="545" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j0-yWrpZcLK2SSLNnE_6-28" value="OpenFlow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="540" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

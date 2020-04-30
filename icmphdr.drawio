@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2020-04-28T13:16:27.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" version="13.0.0" etag="jCHu3E1kXwjagWpT26D8" type="github"><diagram id="O4G49ApymWdZ93PZ0RmV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-04-30T09:28:39.131Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="pjA57mktUWfwgYa-EdXF" version="13.0.0" type="github">
+  <diagram id="O4G49ApymWdZ93PZ0RmV" name="Page-1">
+    <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-1" value="MAC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-2" value="IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-15" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gycGVEV4zjRv4HHAyDe0-41" target="gycGVEV4zjRv4HHAyDe0-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="580" as="sourcePoint" />
+            <mxPoint x="299.9999999999998" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-16" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gycGVEV4zjRv4HHAyDe0-43" target="gycGVEV4zjRv4HHAyDe0-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="580" as="sourcePoint" />
+            <mxPoint x="540" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-17" value="1B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="157" y="500" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-38" value="Pro = 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="360" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-39" value="ICMP header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-40" value="ICMP 数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-41" value="类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-42" value="代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="450" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-43" value="校验和" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="450" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-45" value="1B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="500" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-46" value="2B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="500" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-48" value="依赖于类型和代码的内容（可变）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="215" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gycGVEV4zjRv4HHAyDe0-49" value="" style="endArrow=none;dashed=1;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gycGVEV4zjRv4HHAyDe0-48" target="gycGVEV4zjRv4HHAyDe0-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="460" as="sourcePoint" />
+            <mxPoint x="410" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

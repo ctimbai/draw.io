@@ -1,1 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2020-05-11T09:06:12.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="eRTxTMQOe3dLCp4k07B2" version="13.0.3" type="github"><diagram id="ihJu1DWnwihbSEFNtqEI" name="Page-1">1VbbjpswEP0aS+1DK0KWhDxuLt2qu72okbrNU+TCLLhrbGSGBPr1tcHcyibaSt1u+wKeMzPM+IwPQKarpLhSNI3fyxA4cZ2wINM1cd3JxHH1zSBljXi+BSLFQhvUAVv2AyzoWDRnIWSDQJSSI0uHYCCFgAAHGFVKHodhd5IPq6Y0ghGwDSgfo7csxLhGfXfe4W+BRXFTeTJb1J6ENsF2J1lMQ3nsQdMNma6UlFivkmIF3JDX8FLnvTnhbRtTIPAxCe92t/jxc3Z39+Uq8Ji4FvxD9Mo2m2HZbBhCvX9rSoWxjKSgfNOhSyVzEYJ5qqOtLuZGylSDEw1+B8TSDpPmKDUUY8KtFwqGX036a89au55nXdgnV0ZpjQyVvG9HoMlb1p2bdk8SYqFM5iqAMyzYI4lURYBn4rx2bPq8g0wAVanzFHCK7DDsg9qDF7Vx3Wz0wo7nN0ZlmzxQnttKCWWCuDOuW15+U3oVYcUUVTgaazc0w/MxZgjblFasHLVyhwM6RfYBFEJxnu4xPTbBtzooG4Fb+9jJamGhuKeoC+eJ+PT/l6Ov+VVlL8mYu76vS6usvyIZ75GSmT2nZLyRZMI0vN8zwXCsG7LxiO+TxdosLufEr5EVWeg9OOtP62t921zenJGW80zSuvhFWvPFSFqT+QPa8p6K+NmI+Jbvhm4FiURoYF2l9ejEKscQkMFepsikyF7okxYQd1V916NDvdIpNDEM19dRkVywIkC+T83H+IFSL//9Ybrz8XvyTw1Tm93/R+Xr/cVNNz8B</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-11T09:52:35.044Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="yYwiVj1c8lFqYnQol_Pr" version="13.0.3" type="github">
+  <diagram id="ihJu1DWnwihbSEFNtqEI" name="Page-1">
+    <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BMNEKtwipUOnqceKjnj8-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="600" width="230" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="JYWtORsffVGc5inKnlNg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" source="JYWtORsffVGc5inKnlNg-2" target="JYWtORsffVGc5inKnlNg-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JYWtORsffVGc5inKnlNg-2" value="main&lt;br&gt;start" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="100" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JYWtORsffVGc5inKnlNg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="JYWtORsffVGc5inKnlNg-5" target="JYWtORsffVGc5inKnlNg-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JYWtORsffVGc5inKnlNg-5" value="dpdk_init&lt;br&gt;初始化 DPDK EAL" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="179" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="JYWtORsffVGc5inKnlNg-6" target="BMNEKtwipUOnqceKjnj8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JYWtORsffVGc5inKnlNg-6" value="&lt;b&gt;remote&lt;/b&gt; = parse_options(argc, argv, &amp;amp;&lt;b&gt;unixctl_path&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="270" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-2" value="&lt;b&gt;remote&lt;/b&gt;：&lt;span&gt;用于ovsdb-server绑定监听socket&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;格式：unix:/var/run/db.sock&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-3" value="&lt;div&gt;&lt;b&gt;unixctl_path&lt;/b&gt;：用于ofctl工具连接socket&lt;br&gt;&lt;span&gt;格式：punix:/var/run/ovs-vswitchd.xxx.ctl&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="301" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-4" target="BMNEKtwipUOnqceKjnj8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-4" value="daemonize_start()&lt;br&gt;开启守护进程的模式" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-5" target="BMNEKtwipUOnqceKjnj8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-5" value="unixctl_server_create&lt;br&gt;(unixctl_path, &amp;amp;unixctl)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-6" target="BMNEKtwipUOnqceKjnj8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-6" target="BMNEKtwipUOnqceKjnj8-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-6" value="bridge_init()&lt;br&gt;初始化网桥模块和数据库IDL" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-10" target="BMNEKtwipUOnqceKjnj8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-10" value="bridge_run()&lt;br&gt;管理OpenFlow交换机&lt;br&gt;处理controller交互&lt;br&gt;ovs-ofctl命令" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="630" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-11" target="BMNEKtwipUOnqceKjnj8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-11" value="unixctl_server_run(unixctl)&lt;br&gt;从unixctl指定的server获取命令并执行&lt;br&gt;ovs-vsctl命令、ovs-appctl 命令" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="730" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-12" target="BMNEKtwipUOnqceKjnj8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-12" value="netdev_run()&lt;br&gt;创建并管理交换机上的网卡" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-13" target="BMNEKtwipUOnqceKjnj8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-13" value="&lt;span&gt;bridge_wait()&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;unixctl_server_wait(unixctl)&lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; netdev_wait()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;把fd加入poll的监控节点中&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="930" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-14" value="poll_block()&lt;br&gt;阻塞直到注册事件发生或超时" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1040" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-21" value="while" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="11" y="602" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-22" value="ovsdb_idl_create()&lt;br&gt;创建到ovsdb的rpc连接" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="540" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-24" value="ovsdb_idl_create()&lt;br&gt;创建到ovsdb的rpc连接" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="630" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-25" value="bridge_init_ofproto()&lt;br&gt;ofproto初始化" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="720" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-26" value="bridge_run__()" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="810" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-29" value="bridge_reconfigure(cfg)&lt;br&gt;同步ovsdb的cfg配置，如网桥创建、端口添加、控制器连接等" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="900" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

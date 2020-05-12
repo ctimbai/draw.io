@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-05-11T09:52:35.044Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="yYwiVj1c8lFqYnQol_Pr" version="13.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-12T08:38:20.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="PKyKkoBxMI5yfE6g0Ri8" version="13.0.3" type="github">
   <diagram id="ihJu1DWnwihbSEFNtqEI" name="Page-1">
-    <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1929" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,19 +58,25 @@
         <mxCell id="BMNEKtwipUOnqceKjnj8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-10" target="BMNEKtwipUOnqceKjnj8-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BMNEKtwipUOnqceKjnj8-10" value="bridge_run()&lt;br&gt;管理OpenFlow交换机&lt;br&gt;处理controller交互&lt;br&gt;ovs-ofctl命令" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="BMNEKtwipUOnqceKjnj8-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-10" target="BMNEKtwipUOnqceKjnj8-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-10" value="bridge_run()&lt;br&gt;管理OpenFlow交换机&lt;br&gt;处理controller交互&lt;br&gt;ovs-ofctl命令" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="40" y="630" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BMNEKtwipUOnqceKjnj8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-11" target="BMNEKtwipUOnqceKjnj8-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BMNEKtwipUOnqceKjnj8-11" value="unixctl_server_run(unixctl)&lt;br&gt;从unixctl指定的server获取命令并执行&lt;br&gt;ovs-vsctl命令、ovs-appctl 命令" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="BMNEKtwipUOnqceKjnj8-11" value="unixctl_server_run(unixctl)&lt;br&gt;从unixctl指定的server获取ovs-appctl命令并执行" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="40" y="730" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BMNEKtwipUOnqceKjnj8-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-12" target="BMNEKtwipUOnqceKjnj8-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BMNEKtwipUOnqceKjnj8-12" value="netdev_run()&lt;br&gt;创建并管理交换机上的网卡" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="BMNEKtwipUOnqceKjnj8-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-12" target="BMNEKtwipUOnqceKjnj8-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-12" value="netdev_run()&lt;br&gt;创建并管理交换机上的网卡" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="40" y="840" width="170" height="51" as="geometry" />
         </mxCell>
         <mxCell id="BMNEKtwipUOnqceKjnj8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-13" target="BMNEKtwipUOnqceKjnj8-14">
@@ -79,6 +85,9 @@
         <mxCell id="BMNEKtwipUOnqceKjnj8-13" value="&lt;span&gt;bridge_wait()&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;unixctl_server_wait(unixctl)&lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; netdev_wait()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;把fd加入poll的监控节点中&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="40" y="930" width="170" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-14" target="BMNEKtwipUOnqceKjnj8-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BMNEKtwipUOnqceKjnj8-14" value="poll_block()&lt;br&gt;阻塞直到注册事件发生或超时" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="40" y="1040" width="170" height="51" as="geometry" />
         </mxCell>
@@ -86,19 +95,58 @@
           <mxGeometry x="11" y="602" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BMNEKtwipUOnqceKjnj8-22" value="ovsdb_idl_create()&lt;br&gt;创建到ovsdb的rpc连接" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="290" y="540" width="170" height="51" as="geometry" />
+          <mxGeometry x="267" y="540" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-24" target="BMNEKtwipUOnqceKjnj8-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BMNEKtwipUOnqceKjnj8-24" value="ovsdb_idl_create()&lt;br&gt;创建到ovsdb的rpc连接" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="290" y="630" width="170" height="51" as="geometry" />
+          <mxGeometry x="267" y="634" width="170" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="BMNEKtwipUOnqceKjnj8-25" value="bridge_init_ofproto()&lt;br&gt;ofproto初始化" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="290" y="720" width="170" height="51" as="geometry" />
+        <mxCell id="BMNEKtwipUOnqceKjnj8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-25" target="BMNEKtwipUOnqceKjnj8-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BMNEKtwipUOnqceKjnj8-26" value="bridge_run__()" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="290" y="810" width="170" height="51" as="geometry" />
+        <mxCell id="BMNEKtwipUOnqceKjnj8-25" value="bridge_init_ofproto()&lt;br&gt;ofproto库初始化" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="267" y="724" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-26" target="BMNEKtwipUOnqceKjnj8-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-26" target="BMNEKtwipUOnqceKjnj8-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-26" value="&lt;b&gt;bridge_run__()&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="267" y="814" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-29" target="BMNEKtwipUOnqceKjnj8-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BMNEKtwipUOnqceKjnj8-29" value="bridge_reconfigure(cfg)&lt;br&gt;同步ovsdb的cfg配置，如网桥创建、端口添加、控制器连接等" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="290" y="900" width="170" height="60" as="geometry" />
+          <mxGeometry x="267" y="904" width="170" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-30" value="&lt;div&gt;run_stats_update();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; run_status_update();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; run_system_stats();&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="267" y="1004" width="170" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-37" value="clean_up" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1129" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-39" target="BMNEKtwipUOnqceKjnj8-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-39" value="netdev_initialize()&lt;br&gt;注册各种类型的虚拟网卡&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;netdev_linux_class&lt;br&gt;netdev_internal_class&lt;br&gt;netdev_tap_class&lt;br&gt;vport_class&lt;br&gt;netdev_dpdk_class&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-184" y="805" width="170" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-42" value="class-&amp;gt;run()&lt;br&gt;例如netdev_linux_run()&lt;br&gt;通过netlink获取netdev&lt;br&gt;状态并更新" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-184" y="960" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BMNEKtwipUOnqceKjnj8-44" target="BMNEKtwipUOnqceKjnj8-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-44" value="ofproto_type_run()-&amp;gt;&lt;br&gt;type_run()&lt;br&gt;运行datapath" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="814" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BMNEKtwipUOnqceKjnj8-45" value="ofproto_run()&lt;br&gt;运行ofproto" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="904" width="170" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

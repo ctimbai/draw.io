@@ -1,1 +1,152 @@
-<mxfile host="app.diagrams.net" modified="2020-05-12T08:38:41.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" version="13.0.3" etag="V1CYqJgAAmDjCdnWas7y" type="github"><diagram id="U7ygxp1rwb30pOBUPpIL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-13T03:03:39.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="oTc3yjcI2jgPl9UuOn_7" version="13.0.3" type="github">
+  <diagram id="U7ygxp1rwb30pOBUPpIL" name="Page-1">
+    <mxGraphModel dx="1929" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-2" target="rFGwAQm6YTdWpJTiQ7ow-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-2" value="bridge_run()" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-3" target="rFGwAQm6YTdWpJTiQ7ow-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-3" value="ovsdb_idl_create()&lt;br&gt;创建到ovsdb的rpc连接" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="257" y="204" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-16" target="rFGwAQm6YTdWpJTiQ7ow-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-16" target="rFGwAQm6YTdWpJTiQ7ow-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-16" value="bridge_init_ofproto()&lt;br&gt;ofproto库初始化" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="257" y="298" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-19" target="rFGwAQm6YTdWpJTiQ7ow-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-19" target="rFGwAQm6YTdWpJTiQ7ow-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-19" value="&lt;b&gt;bridge_run__()&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="257" y="388" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-21" target="rFGwAQm6YTdWpJTiQ7ow-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-45" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-21" target="rFGwAQm6YTdWpJTiQ7ow-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-21" value="bridge_reconfigure(cfg)&lt;br&gt;同步ovsdb的cfg配置，如网桥创建、端口添加、控制器连接等" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="257" y="478" width="170" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-22" value="&lt;div&gt;run_stats_update();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; run_status_update();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; run_system_stats();&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="257" y="578" width="170" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-24" target="rFGwAQm6YTdWpJTiQ7ow-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-24" value="ofproto_type_run()-&amp;gt;&lt;br&gt;type_run()&lt;br&gt;运行datapath" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="470" y="517" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-25" target="rFGwAQm6YTdWpJTiQ7ow-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-25" value="ofproto_run()&lt;br&gt;运行ofproto" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="470" y="607" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-27" target="rFGwAQm6YTdWpJTiQ7ow-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-27" value="ofproto接口类注册&lt;br&gt;ofproto_dpif" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="298" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-29" value="ofproto_class[i]-&amp;gt;&lt;br&gt;init(&amp;amp;init_ofp_ports)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="388" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-31" target="rFGwAQm6YTdWpJTiQ7ow-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-31" value="ofproto_enumerate_types()-&amp;gt;&lt;br&gt;ofproto_classes[i]-&amp;gt;&lt;br&gt;enumerate_types()-&amp;gt;&lt;br&gt;dp_initialize()-&amp;gt;&lt;br&gt;dp_register_provider()&lt;br&gt;注册dpif_class:&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;dpif_netlink_class&lt;br&gt;dpif_netdev_class&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="349" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-34" target="rFGwAQm6YTdWpJTiQ7ow-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-34" value="ofproto_class-&amp;gt;run()&lt;br&gt;connmgr_send_packet_in()&lt;br&gt;发送消息到控制器" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="700" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-35" target="rFGwAQm6YTdWpJTiQ7ow-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-35" value="可选调用&lt;br&gt;netflow_run()&lt;br&gt;dpif_sflow_run()&lt;br&gt;dpif_ipfix_run()&lt;br&gt;port_run()&lt;br&gt;bundle_run()&lt;br&gt;stp_run()&lt;br&gt;rstp_run()" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="790" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-36" target="rFGwAQm6YTdWpJTiQ7ow-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-36" value="run_rule_executes()&lt;br&gt;执行rule到datapath" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="960" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-37" value="connmgr_run()&lt;br&gt;OpenFlow连接处理" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1050" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-44" target="rFGwAQm6YTdWpJTiQ7ow-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-44" value="add_del_bridges()&lt;br&gt;添加或删除新的bridge&lt;br&gt;加入all_bridges全局hash表" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="482.5" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-51" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-46" target="rFGwAQm6YTdWpJTiQ7ow-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-46" value="ofproto_create()&lt;br&gt;创建ofproto协议层，包括oftable、port、connmgr等" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="576" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-54" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-48" target="rFGwAQm6YTdWpJTiQ7ow-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-48" value="bridge_add_ports()&lt;br&gt;配置端口" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="670" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-55" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-52" target="rFGwAQm6YTdWpJTiQ7ow-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-52" value="bridge_configure_remotes()&lt;br&gt;网桥和控制器连接" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rFGwAQm6YTdWpJTiQ7ow-53" target="rFGwAQm6YTdWpJTiQ7ow-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="922" />
+              <mxPoint y="922" />
+              <mxPoint y="460" />
+              <mxPoint x="230" y="460" />
+              <mxPoint x="230" y="414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-53" value="port_configure()&lt;br&gt;bridge_configure_xxx()&lt;br&gt;其他业务配置" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="850" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-59" value="iface_create()&lt;br&gt;iface_do_create() ofproto_port_add() ofproto_class-&amp;gt;port_add() dpif_port_add() dpif_netlink_port_add() 最后调用netlink配置到内 核datapath" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="257" y="670" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rFGwAQm6YTdWpJTiQ7ow-61" value="" style="endArrow=classic;html=1;strokeWidth=2;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="695" as="sourcePoint" />
+            <mxPoint x="257" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

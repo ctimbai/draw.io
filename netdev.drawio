@@ -1,1 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2020-05-13T03:03:57.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" version="13.0.3" etag="UiCdgGUPoNXSk4LomdoM" type="github"><diagram id="spqWsIjYwfMYzRLkE8RO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-13T08:49:53.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="DlU6uc5Cteny8pvxhlKX" version="13.0.3" type="github">
+  <diagram id="spqWsIjYwfMYzRLkE8RO" name="Page-1">
+    <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xkY91WylhywfZ9IeH0Ze-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" target="xkY91WylhywfZ9IeH0Ze-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="99" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xkY91WylhywfZ9IeH0Ze-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="xkY91WylhywfZ9IeH0Ze-4" target="xkY91WylhywfZ9IeH0Ze-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xkY91WylhywfZ9IeH0Ze-4" value="netdev_run()&lt;br&gt;创建并管理交换机上的网卡" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="14" y="180" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="xkY91WylhywfZ9IeH0Ze-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="xkY91WylhywfZ9IeH0Ze-11" target="xkY91WylhywfZ9IeH0Ze-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xkY91WylhywfZ9IeH0Ze-11" value="netdev_initialize()&lt;br&gt;注册各种类型的虚拟网卡&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;netdev_linux_class&lt;br&gt;netdev_internal_class&lt;br&gt;netdev_tap_class&lt;br&gt;vport_class&lt;br&gt;netdev_dpdk_class&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="220" y="145" width="170" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="xkY91WylhywfZ9IeH0Ze-12" value="class-&amp;gt;run()&lt;br&gt;例如netdev_linux_run()&lt;br&gt;通过netlink获取netdev&lt;br&gt;状态并更新" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="170" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

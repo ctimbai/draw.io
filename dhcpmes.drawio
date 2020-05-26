@@ -1,1 +1,127 @@
-<mxfile host="app.diagrams.net" modified="2020-05-18T05:26:13.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="aEEy6EpP6rI3M-Vm2Fmp" version="13.1.2" type="github"><diagram id="ZDYZUVGrpttesVrRUEf9" name="Page-1">5Zpbc6IwFIB/TR67w0VQHwW13Uu3Tu3sPnYoRMgsEhdi1f31GyTcTJTatYBs7Yxwkpwk3znJ4USAai63t6G18u6xA32gSM4WqGOg0L/ekH7Fkl0i6etKInBD5CQiORfM0R/IhBKTrpEDo1JFgrFP0KostHEQQJuUZFYY4k252gL75V5Xlgs5wdy2fF76EznES6QDpZ/L7yByvbRnWWcTXlppZTaTyLMcvCmI1AlQzRBjklwttyb0Y3gpl6Td9EhpNrAQBuQtDVRF+vF8+3XqPzxOyMMYed+/rG+YllfLX7MJs8GSXUoABs4oBknvAhxQoeGRpU/vZHqZ1IYOBzEflZzNlToJxEtIwh2tsslpaoyQVwCZykLoWwS9ltVbzKhupi7rYYYR7ViRmAPKKf3U/dL7VEWE16ENWasivWOK0obECl1IuIb0ojDNXLQ3xhmGUTpumJ50IcNkimoyjHqWYWzfiiJkX5dtDhfN4F9Nw/TIer2m6glMpfuUlbHA+3EuLDsp0H+v423Y+La2kWPREhMHEab2zErolRt/j+/MGS0fo8jGrzBMFdLxJTqTWpxLELglZSeISIh/QRP7OMwX8AL5/oHI8pEbxJ5EfYP2pxq0V4JogBqxgiVynLgbY+MhAuerZE4bGo6pLMTrwIExJCkbVqwAbs91vSyii32j4JmyLHDNw+Vd9MKS3c81siyy8gF9l2JYHZ08e3SwXtLq0rlQbnQBhb6AArcCLoZB4yjMH83n+5EJJlNgmGA4AhMdDHVgSGDSA8aI/selzH9fwszB508HzTRgDIEx3bdXwIjqlvYtDyCXXU3kjNwWWOGJJ+x9cmsUou99FHldSP7zLCMofdp/xKgL9YSkaXnLQO/KPBvj3hdynz08PmVE9YEYerlSv6WERVtrrYQHHGFMvDjmSUsYRXHi1E5w2fNLY+RkfjuuPSj15OpIXW+MksVbZReDlNayICWLd8sORKkjpNsSpWR+E726MHUaceNhSh62Nk6dJtd8nEoH0OXTjMpTiLOPAJkiziwffSR43mHtVRqrkvF7z57Uus9vle4bq5Lxe1dW3We6yn94qNu71MrS6l5Zb8itumYsbaBdxli6rtVrLD7l44xV2+ls+gDQfCasiNOxDmbCiQO0KBNWxAnZ9WfCx0i3JRNW+DTt2jLhCsSNZ8Iqn861JBOuINd8Jqy+Ibmq+8RWaf5nRZVPYzoaqNTqB76aPZJPSroRqI6RbkugUvk3Cq4tUFUgbj5Q8TlcSwJVBbmPDFT0Nn8bNEnA8ndq1clf</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-26T13:10:10.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="kYT3PH0MVtqq41HnQq-Y" version="13.1.2" type="github">
+  <diagram id="ZDYZUVGrpttesVrRUEf9" name="Page-1">
+    <mxGraphModel dx="2249" dy="1882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="320V_GKFlOREtODihNJu-1" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" edge="1" target="M1EFogNTBUrHFmNn4hz3-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="440" as="sourcePoint" />
+            <mxPoint x="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-2" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" edge="1" target="M1EFogNTBUrHFmNn4hz3-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="400" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-3" value="" style="endArrow=classic;html=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="80" as="sourcePoint" />
+            <mxPoint x="400" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-4" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;DHCP Discover&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="220" y="80" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-14" value="" style="group;strokeWidth=2;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-60" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-5" value="SRC_MAC：新人MAC&lt;br&gt;DST_MAC：广播 MAC" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-14" vertex="1">
+          <mxGeometry width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-6" value="SRC_IP：0.0.0.0&lt;br&gt;DST_IP：广播 IP" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-14" vertex="1">
+          <mxGeometry y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-7" value="SRC_PORT：67&lt;br&gt;DST_PORT：68" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-14" vertex="1">
+          <mxGeometry y="80" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-8" value="我是新人xx，谁能给我分配个IP" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-14" vertex="1">
+          <mxGeometry y="120" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-15" value="" style="group;strokeWidth=2;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="410" y="80" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-16" value="SRC_MAC：Server MAC&lt;br&gt;DST_MAC：广播 MAC" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-15" vertex="1">
+          <mxGeometry width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-17" value="SRC_IP：Server IP&lt;br&gt;DST_IP：广播 IP" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-15" vertex="1">
+          <mxGeometry y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-18" value="SRC_PORT：68&lt;br&gt;DST_PORT：67" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-15" vertex="1">
+          <mxGeometry y="80" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-19" value="我是Server xx，你可以使用这个 IP" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-15" vertex="1">
+          <mxGeometry y="120" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-20" value="" style="endArrow=classic;html=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="160" as="sourcePoint" />
+            <mxPoint x="120" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-21" value="" style="endArrow=classic;html=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="400" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-22" value="" style="endArrow=classic;html=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="120" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-26" value="" style="group;strokeWidth=2;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-60" y="180" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-27" value="SRC_MAC：新人MAC&lt;br&gt;DST_MAC：广播 MAC" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-26" vertex="1">
+          <mxGeometry width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-28" value="SRC_IP：0.0.0.0&lt;br&gt;DST_IP：广播 IP" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-26" vertex="1">
+          <mxGeometry y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-29" value="SRC_PORT：67&lt;br&gt;DST_PORT：68" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-26" vertex="1">
+          <mxGeometry y="80" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-30" value="我是新人xx，我接收Server xx 的 IP" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-26" vertex="1">
+          <mxGeometry y="120" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-31" value="" style="group;strokeWidth=2;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="410" y="260" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-32" value="SRC_MAC：Server MAC&lt;br&gt;DST_MAC：广播 MAC" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-31" vertex="1">
+          <mxGeometry width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-33" value="SRC_IP：Server IP&lt;br&gt;DST_IP：广播 IP" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-31" vertex="1">
+          <mxGeometry y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-34" value="SRC_PORT：68&lt;br&gt;DST_PORT：67" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-31" vertex="1">
+          <mxGeometry y="80" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="320V_GKFlOREtODihNJu-35" value="我是 Server xx，这个 IP 给新人xx，放心使用" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="320V_GKFlOREtODihNJu-31" vertex="1">
+          <mxGeometry y="120" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M1EFogNTBUrHFmNn4hz3-1" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;DHCP Offer&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M1EFogNTBUrHFmNn4hz3-2" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;DHCP Request&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M1EFogNTBUrHFmNn4hz3-3" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;DHCP ACK&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M1EFogNTBUrHFmNn4hz3-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Client&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M1EFogNTBUrHFmNn4hz3-5" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Server&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M1EFogNTBUrHFmNn4hz3-6" value="&lt;font color=&quot;#ff8000&quot;&gt;公众号@Linux云计算网络&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

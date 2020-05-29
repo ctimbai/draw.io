@@ -1,1 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2020-05-28T12:03:17.454Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" version="13.1.3" etag="O8JXngXverubAfVgHfRo" type="github"><diagram id="CWHjLp-rYf43e9V81lw-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-29T09:33:42.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="BPL8erlSL_hpDbRT-uxB" version="13.1.3" type="github">
+  <diagram id="CWHjLp-rYf43e9V81lw-" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--2" value="Op（请求/应答）&lt;br&gt;（8位）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--3" value="HW类型&lt;br&gt;（htype，8位）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--4" value="HW长度&lt;br&gt;（hlen，8位）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--5" value="跳步数&lt;br&gt;（8位）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--7" value="事务ID（xid，32位）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--8" value="秒数（Secs，16位）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--9" value="标志（16位）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--10" value="客户机IP地址（ciaddr，32位，如果已知）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="290" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--11" value="“你的”IP地址（yiaddr，32位）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="330" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--12" value="（下一）服务器IP地址（siaddr，32位）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--13" value="网关（中继）IP地址（giaddr，32位）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="410" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--14" value="客户机硬件地址（chaddr，128位）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="450" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--15" value="服务器名（sname，64位）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="520" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--16" value="引导文件名（file，128位）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="570" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--17" value="选项（options，可变）" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="640" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--18" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="640" as="sourcePoint" />
+            <mxPoint x="480" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--22" value="固定&lt;br&gt;大小" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1l0kNZSAP4Tbfz-mxTd--18">
+          <mxGeometry x="-0.0553" y="-1" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--20" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="710" as="sourcePoint" />
+            <mxPoint x="480" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--23" value="选项53指出&lt;br&gt;DHCP消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1l0kNZSAP4Tbfz-mxTd--20">
+          <mxGeometry x="-0.3143" y="-5" relative="1" as="geometry">
+            <mxPoint x="-5" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1l0kNZSAP4Tbfz-mxTd--24" value="&lt;font color=&quot;#ffd966&quot;&gt;公众号@Linux云计算网络&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;rotation=-25;" vertex="1" parent="1">
+          <mxGeometry x="270" y="490" width="160" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

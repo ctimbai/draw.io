@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T13:27:59.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="14.2.7" etag="kpOJHgr48YXM3YdWEKWl" type="github"><diagram id="O-BWUw40_VTMGG16QcxM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-16T13:57:00.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="c_XsTT3AD0uANRzjc502" version="14.2.7" type="github">
+  <diagram id="O-BWUw40_VTMGG16QcxM" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="miOvh5082raTQnH3z15B-1" value="" style="rounded=0;whiteSpace=wrap;html=1;arcSize=3;strokeWidth=1;glass=0;shadow=0;sketch=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="165" y="168" width="380" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="miOvh5082raTQnH3z15B-2" value="21世纪最宝贵的是时间和精力，人们对于碎片化阅读越来越挑剔，既不想花太多时间，又想学到知识，而摆在眼前的长篇大论一来废话太多，二来耗时耗力，看后还是两眼发懵，所以我们力求在 &lt;font color=&quot;#ff0000&quot;&gt;5 分钟&lt;/font&gt;之内讲懂一个知识点，不贪多、不废话，关注我们，让Go语言不再难懂。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="194" width="370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="miOvh5082raTQnH3z15B-3" value="" style="endArrow=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="240" as="sourcePoint" />
+            <mxPoint x="545" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="miOvh5082raTQnH3z15B-4" value="后台回复「&lt;font color=&quot;#ff0000&quot;&gt;加群&lt;/font&gt;」两字，带你进Go语言高手交流群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="270" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

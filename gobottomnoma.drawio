@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T04:09:03.176Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" version="14.3.2" etag="e0grqqFkmuA94YzsPkoq" type="github"><diagram id="aN3ff2GszAckAHxYvteG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-17T04:14:51.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="A8Nw8FTyms7L0yDfd5w-" version="14.3.2" type="github">
+  <diagram id="aN3ff2GszAckAHxYvteG" name="Page-1">
+    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c54EOa0EUSvnF7AEv8mV-1" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeWidth=1;glass=0;shadow=0;sketch=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="190" y="191" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c54EOa0EUSvnF7AEv8mV-2" value="博主微信：wugo11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="203" width="115" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c54EOa0EUSvnF7AEv8mV-3" value="备注「&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;加群&lt;/b&gt;&lt;/font&gt;」，带你进入Go高手如云交流社群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="227" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c54EOa0EUSvnF7AEv8mV-4" value="备注「&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;gogogo&lt;/b&gt;&lt;/font&gt;」，送你一份精选Go学习宝典" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="228" y="247" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c54EOa0EUSvnF7AEv8mV-6" value="公众号：5分钟学Go(id: learngo5)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="203" width="184" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

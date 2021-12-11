@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-11T07:22:28.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="j0lbPcfGXRUeU2wN3l7S" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-11T08:28:30.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="N5hgGu1xwggXwUR_gRPU" version="15.9.4" type="github">
   <diagram id="g8te5oPi9ZXhJIPehppG" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,9 +24,6 @@
         </mxCell>
         <mxCell id="GQ-dvTlJsdlPZqajyjdu-2" value="报文填充队列" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="560" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GQ-dvTlJsdlPZqajyjdu-21" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curved=1;" parent="1" source="GQ-dvTlJsdlPZqajyjdu-3" target="GQ-dvTlJsdlPZqajyjdu-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GQ-dvTlJsdlPZqajyjdu-3" value="通知 host" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="640" width="120" height="40" as="geometry" />
@@ -269,6 +266,24 @@
         </mxCell>
         <mxCell id="GQ-dvTlJsdlPZqajyjdu-98" value="vxlan_xmit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RxDHCEaJ5ndv0PJf2Nav-2" value="" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curved=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="GQ-dvTlJsdlPZqajyjdu-3" target="GQ-dvTlJsdlPZqajyjdu-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="680" as="sourcePoint" />
+            <mxPoint x="180" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RxDHCEaJ5ndv0PJf2Nav-10" value="&lt;span&gt;1. TSO/GSO/tx csum开启，不做分片和校验，&lt;br&gt;大包场景性能提供明显&lt;br&gt;ethtool -K eth0 tx/rx on/off&lt;br&gt;2. 开启网卡多队列，每个队列对应一个vhost线程&lt;br&gt;ethtool -L eth0 combined 4&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;rounded=1;sketch=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="840" y="640" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RxDHCEaJ5ndv0PJf2Nav-11" value="&lt;span&gt;vhost发包零拷贝，该特性已移除&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;rounded=1;sketch=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="850" y="955" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="RxDHCEaJ5ndv0PJf2Nav-12" value="&lt;span&gt;ovs查询操作&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;rounded=1;sketch=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1300" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="RxDHCEaJ5ndv0PJf2Nav-13" value="&lt;span&gt;真正的分片操作在这里&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;rounded=1;sketch=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1490" width="240" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T15:07:21.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="CoTN_fVNozWVtvX9VtaJ" version="16.0.0" type="github"><diagram id="gx4H9VVGNejoeBhrStRS" name="Page-1">vVZtb9owEP41lrYPm0hMEvtjDKHdh2qaOqn7NqXEhKgB0xAK7Nfv7myHpNCp3VurUvPc+V6eu7PN+GR1uGryzfLGFLpm4ag4MD5lYRiEYwH/EDlaJA5jC5RNVTilE3Bb/dAOHDl0VxV6O1BsjanbajME52a91vN2gOVNY/ZDtYWph143eanPgNt5Xp+jd1XRLi0qwuSEX+uqXHrPQSytZJV7ZZfJdpkXZt+DeMb4pDGmtavVYaJrJM/zYvfNXpB2gTV63b5mw+fyq0muj9HjLnk63n2/Et++3HwIrZWnvN65hF2w7dEz0JjdutBoJGBc7ZdVq283+Ryle6g5YMt2VTtx3sxdDTl827aNeeh4Q3lZ51usyAilnhD68qDbuddaVHU9MbVpKAK+kIsEA3D2ehIec8lR4tLQTasPL/ITdKxDu2qz0m1zBBW/QbhCuU4NpDOxP9WdR05n2au5dBXPXauVnelTNWDhCvKG4ojz4mQxkxOWTmgRM5GwTLKU1lnExIxB0NmYqZSJjJCIlAGZMJk4HQULziBdAXHFdYuMGyAJp8hTGz/usDEV0r8YwU8fikv3n/beeyAi+4KJGKOSIZMzRNIpRHhl3n2aMp6Ck1rnzbo00XtvAMi5f24UMBuTg13AU5bNMBdhkxII2kWasgw+M5ZKQsDpCFlKZ5gyLoC3AHVEyhSUdhTB3+WI1Qg1UJWjIdgMbAoiHWylwSXfMdpFpNuVMBEyJXEhQTR+RT1CUlaYBookJRxRyQUhUzRlnSqFvhSUPKNuUEyNf5mVqwO6UJy2kxaG0XEKWmOWUmAQg/JdBSSiUwgsclmABXAKnxiYZUP17CREd79IMTpSNqIEQz1jFUM7Z7EjJsI+F3YEMqQElTkFIkgUUGgp1R08ZJiKnYWUvEF/ok4v1/PMTky/VCjQGfnhmmGnIKKoCESemP6b4bqQ3O+Pj1Q+/diFjQdIj5n/kVFp8PcPDwE7AcIdjDAxF6YE+AqRMpzsGfYMKkfUgwlVM+7NaH+yYaSm2JUC2wTGBxc94emIjVxbY+/YGAMfmiKR8LMkqGXgzFYUdSfqnRE0p+RCUrlpFOXUD57ozYQ91ULnC+PpTr7hoTMYV7/9+U0Pd2c7vM6HF+7arPWz29lBeV2Va/ha6wVawHu4gjdU6uBVVRTo5OLr4fS+OHsUDF4L/QfC37ju5fC6D8PoY3R+4fMLF77H3nDhw9fTS49kvfcyz34C</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-06T15:20:42.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="Ik5KSsy9hZEAv2ZZmZ3I" version="16.0.0" type="github">
+  <diagram id="gx4H9VVGNejoeBhrStRS" name="Page-1">
+    <mxGraphModel dx="1248" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OgTo7Hy5qu7vyW_G8XQM-2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeWidth=1;glass=0;shadow=0;sketch=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="180" y="191" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="OgTo7Hy5qu7vyW_G8XQM-8" value="本文首发于公众号「&lt;font color=&quot;#ff0000&quot;&gt;5分钟学Go&lt;/font&gt;」，一个让你每次花 5 分钟就能掌握一个技能点的公众号。目前在博主连更 5 分钟学Go系列，大家可以关注下，第一时间掌握Go技能。如果想要加群交流，可以在公众号后台回复「&lt;font color=&quot;#ff0000&quot;&gt;加群&lt;/font&gt;」；另外，回复「&lt;font color=&quot;#ff0000&quot;&gt;gogogo&lt;/font&gt;」，还有博主精心整理的一份Go语言从入门、进阶到高阶的学习宝典。欢迎你的关注。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="225.5" width="340" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
